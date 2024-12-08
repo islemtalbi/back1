@@ -27,4 +27,37 @@ public class User {
     private List<String> evenements;
 
 
+    public long getId() {
+
+        return 0;
+    }
+
+    public Object getFirstName() {
+
+        return firstName;
+    }
+
+    public Object getLastName() {
+        return lastName;
+    }
+
+    public Object getEmail() {
+        return email;
+    }
+
+    public Object getPassword() {
+        return password;
+    }
+
+    public void setFirstName(Object firstName) {
+    }
+
+    public void setLastName(Object lastName) {
+    }
+
+    public void setEmail(Object email) {
+    }
+
+    public void setPassword(Object password) {
+    }
 }

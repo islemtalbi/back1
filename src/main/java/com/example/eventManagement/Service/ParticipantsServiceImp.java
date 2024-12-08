@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
-public class ParticipantsServiceImp implements ParticipantsService {
+abstract class ParticipantsServiceImp implements ParticipantsService {
     private final ParticipantRepository participantRepository ;
 
 
